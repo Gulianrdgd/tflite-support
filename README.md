@@ -1,5 +1,9 @@
 # TensorFlow Lite Support
 
+```
+bazel run --run_under="cd $PWD && "  -- //tensorflow_lite_support/tools/pip_package:build_pip_package  --dst .
+```
+
 TFLite Support is a toolkit that helps users to develop ML and deploy TFLite
 models onto mobile devices. It works cross-Platform and is supported on Java,
 C++ (WIP), and Swift (WIP). The TFLite Support project consists of the following
